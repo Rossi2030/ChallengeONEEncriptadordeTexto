@@ -1,0 +1,146 @@
+*{
+    background: #f6f6f6;
+    font-family: 'Inter';
+    font-weight: 380;
+    font-size: 25px;
+    line-height: 108%;
+} 
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 7%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    font-size: 80px;
+}
+
+.text-area{
+    border: none;
+    color: #0A3871;
+    margin-top: 88px;
+    text-transform: lowercase;
+    resize: none;
+}
+
+::placeholder{
+    color: #0A3871;
+}
+
+.text-area:focus{
+    outline: none;
+}
+
+.mensaje{
+    background-color: white;
+    border: none;
+    background-image: url("imagenes/Persona\ y\ Texto.jpeg");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: 34px 60px;
+    border-radius: 15px;
+    color: #0A3871;
+    margin-left: 176px;
+    margin-top: 50px;
+    position: absolute;
+    width: 350px;
+    height: 590px;
+    bottom: 40px;
+    resize: none;
+    display: inline-block;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar{
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 99px;
+    margin-top: 470px;
+    position: absolute;
+    left: 880px;
+    right: 28px;
+    bottom: 60px;
+    width: 306px;
+}
+
+.informacion{
+    color: #495057;
+    font-size: 18px;
+    text-transform: lowercase;
+}
+
+@media (max-width: 812px) {
+    .logo{
+        width: 30%;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+    .text-area{
+        width: 70%;
+    }
+    .informacion{
+        width: 40%;
+        margin-right: 170px;
+    }
+    .btn-encriptar{
+        width: 70%;
+        position: relative;
+        left: 10px;
+    }
+    .btn-desencriptar{
+        margin-top: 100px;
+        position: relative;
+        right: 240px;
+    }
+    .copiar{
+        width: 60%;
+        top: 330px;
+        left: 5px;
+    }
+    .mensaje{
+        position: relative;
+        right: 725px;
+        top: 750px;
+    }
+}
+
+
+
